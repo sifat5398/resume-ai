@@ -1,7 +1,7 @@
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { analyzeResume } from "@/lib/anthropic";
+import { analyzeResume } from "@/lib/gemini";
 import { z } from "zod";
 import type { NextRequest } from "next/server";
 
