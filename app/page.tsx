@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Link from "next/link";
 import { CheckCircle2, Shield, Target, Zap, FileText, Search, Sparkles } from "lucide-react";
+import AppMockup from "@/components/AppMockup";
 
 export default function LandingPage() {
   return (
@@ -15,7 +16,7 @@ export default function LandingPage() {
             <p className="mx-auto max-w-2xl text-xl text-text-muted">Our AI analyzes every aspect of your resume to ensure it stands out to both humans and machines.</p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-3 mb-20">
             {[
               {
                 icon: Search,
@@ -45,6 +46,11 @@ export default function LandingPage() {
               </div>
             ))}
           </div>
+
+          {/* Visual Mockup */}
+          <div className="mt-20 animate-fade-up [animation-delay:400ms]">
+            <AppMockup />
+          </div>
         </div>
       </section>
 
@@ -62,7 +68,7 @@ export default function LandingPage() {
             
             {[
               { step: "1", title: "Upload Resume", desc: "Upload your PDF or paste your resume text securely into our platform." },
-              { step: "2", title: "AI Analysis", desc: "Claude-3-Sonnet performs a deep audit of your formatting and experience." },
+              { step: "2", title: "AI Analysis", desc: "Llama-3 performs a deep audit of your formatting and experience." },
               { step: "3", title: "Get Results", desc: "Review your comprehensive score and apply targeted improvements immediately." }
             ].map((s, i) => (
               <div key={i} className="relative flex flex-col items-center text-center z-10 group">
