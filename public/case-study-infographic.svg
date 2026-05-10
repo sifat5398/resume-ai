@@ -1,0 +1,71 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="white"/>
+  
+  <!-- Left Panel (Indigo) -->
+  <rect width="250" height="400" fill="#6366F1"/>
+  <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="40" y="60">ResumeAI</tspan></text>
+  <text fill="white" fill-opacity="0.8" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="14" font-weight="medium" letter-spacing="0.05em"><tspan x="40" y="85">AI RESUME REVIEWER</tspan></text>
+  
+  <!-- Stats Boxes -->
+  <rect x="40" y="130" width="170" height="60" rx="12" fill="white" fill-opacity="0.1"/>
+  <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="bold"><tspan x="55" y="158">&lt; 30s</tspan></text>
+  <text fill="white" fill-opacity="0.7" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="11" font-weight="bold"><tspan x="55" y="175">REVIEW TIME</tspan></text>
+  
+  <rect x="40" y="205" width="170" height="60" rx="12" fill="white" fill-opacity="0.1"/>
+  <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="bold"><tspan x="55" y="233">Free</tspan></text>
+  <text fill="white" fill-opacity="0.7" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="11" font-weight="bold"><tspan x="55" y="250">NO CREDIT CARD</tspan></text>
+  
+  <rect x="40" y="280" width="170" height="60" rx="12" fill="white" fill-opacity="0.1"/>
+  <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="bold"><tspan x="55" y="308">4</tspan></text>
+  <text fill="white" fill-opacity="0.7" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="11" font-weight="bold"><tspan x="55" y="325">SECTIONS ANALYZED</tspan></text>
+
+  <!-- Center Panel (How it works) -->
+  <text fill="#111827" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="bold"><tspan x="290" y="60">How It Works</tspan></text>
+  
+  <circle cx="310" cy="110" r="15" fill="#6366F1" fill-opacity="0.1"/>
+  <text fill="#6366F1" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" x="310" y="114">1</text>
+  <text fill="#111827" font-family="Inter, sans-serif" font-size="14" font-weight="bold" x="335" y="115">Upload Resume</text>
+  <text fill="#6B7280" font-family="Inter, sans-serif" font-size="12" x="335" y="132">PDF or manual text entry</text>
+  
+  <path d="M310 135 L310 165" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <circle cx="310" cy="190" r="15" fill="#6366F1" fill-opacity="0.1"/>
+  <text fill="#6366F1" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" x="310" y="194">2</text>
+  <text fill="#111827" font-family="Inter, sans-serif" font-size="14" font-weight="bold" x="335" y="195">AI Analyzes in 30s</text>
+  <text fill="#6B7280" font-family="Inter, sans-serif" font-size="12" x="335" y="212">Llama-3 Audit &amp; ATS Check</text>
+
+  <path d="M310 215 L310 245" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <circle cx="310" cy="270" r="15" fill="#6366F1" fill-opacity="0.1"/>
+  <text fill="#6366F1" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" x="310" y="274">3</text>
+  <text fill="#111827" font-family="Inter, sans-serif" font-size="14" font-weight="bold" x="335" y="275">Get Detailed Results</text>
+  <text fill="#6B7280" font-family="Inter, sans-serif" font-size="12" x="335" y="292">Score, Feedback &amp; Keywords</text>
+
+  <!-- Right Panel (Tech Stack) -->
+  <rect x="550" y="0" width="250" height="400" fill="#F8F9FB"/>
+  <text fill="#111827" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="bold"><tspan x="580" y="60">Tech Stack</tspan></text>
+  
+  <g transform="translate(580, 100)">
+    <circle cx="5" cy="5" r="3" fill="#6366F1"/>
+    <text x="20" y="10" fill="#374151" font-family="Inter, sans-serif" font-size="14" font-weight="medium">Next.js 14</text>
+    
+    <circle cx="5" cy="35" r="3" fill="#6366F1"/>
+    <text x="20" y="40" fill="#374151" font-family="Inter, sans-serif" font-size="14" font-weight="medium">Groq AI (Llama 3)</text>
+    
+    <circle cx="5" cy="65" r="3" fill="#6366F1"/>
+    <text x="20" y="70" fill="#374151" font-family="Inter, sans-serif" font-size="14" font-weight="medium">Neon PostgreSQL</text>
+    
+    <circle cx="5" cy="95" r="3" fill="#6366F1"/>
+    <text x="20" y="100" fill="#374151" font-family="Inter, sans-serif" font-size="14" font-weight="medium">Prisma ORM</text>
+    
+    <circle cx="5" cy="125" r="3" fill="#6366F1"/>
+    <text x="20" y="130" fill="#374151" font-family="Inter, sans-serif" font-size="14" font-weight="medium">NextAuth.js</text>
+    
+    <circle cx="5" cy="155" r="3" fill="#6366F1"/>
+    <text x="20" y="160" fill="#374151" font-family="Inter, sans-serif" font-size="14" font-weight="medium">Vercel Deployment</text>
+  </g>
+  
+  <rect x="580" y="320" width="130" height="40" rx="20" fill="#6366F1"/>
+  <text x="645" y="345" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">View Live →</text>
+</svg>
